@@ -53,10 +53,10 @@ while True:
         ratio = int((lengthVer/lengthHor) * 100)
 
         # If the eyelids are closed, press the spacebar
-        if ratio < 29:  
+        if ratio < 27:  
             keyboard.press(Key.space)
         # If the eyelids are open, release the spacebar                   
-        if ratio > 29:                                                                                 
+        if ratio > 27:                                                                                 
             keyboard.release(Key.space)          
 
         # Shows the frame and the plot on top of each other
